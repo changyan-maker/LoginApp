@@ -59,8 +59,8 @@ public class UserDao {
                                 }
                                 else
                                     msg = 2;            //密码错误
+                                break;
                             }
-                            break;
                         }
                     }else {
                         Log.e(TAG, "查询结果为空");
